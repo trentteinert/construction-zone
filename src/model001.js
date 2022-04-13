@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Model2 from "./components/Model2";
+import Model001 from './components/Model001';
 
 function Stand() {
   return (
@@ -30,7 +30,7 @@ export default function Model001page() {
         <spotLight position={[3, 3, 1]} angle={0.3} />
         <Stand />
         <Suspense fallback={null}>
-          <Model2 position={[0, 0, 0]} />
+          <Model001 position={[0, 0, 0]} />
         </Suspense>
       </Canvas>
         <div>

@@ -9,15 +9,28 @@ button#Button4 {
 }
 
 button#Button5 {
-  position: absolute;
-  top: 0.3%;
-  left: 1.5%;
+  position: relative;
+  margin-right: 10px;
 }
 
 button#Button6 {
-  position: absolute;
-  top: 0.3%;
-  left: 7%;
+  position: relative;
+  margin-right: 10px;
+}
+
+button#Button7 {
+  position: relative;
+  margin-right: 10px;
+}
+
+button#Button8 {
+  position: relative;
+  margin-right: 10px;
+}
+
+button#Button9 {
+  position: relative;
+  margin-right: 10px;
 }
 
 button#Button10 {
