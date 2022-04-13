@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+button#Button10 {
+  position: absolute;
+  top: 13.5%;
+  z-index: 11;
+  left: 1.5%;
+}
+
+button#Button5 {
+  position: absolute;
+  top: 95%;
+  left: 1.5%;  
+}
+
+button#Button6 {
+  position: absolute;
+  top: 95%;
+  left: 6%;  
+}
+
+
+.Stretchmode {
+    width: 100%;
+    height: 1000px;
+}

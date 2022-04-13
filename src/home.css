@@ -1,0 +1,91 @@
+body {
+  background: #666666;
+  font: 18px Arial, sans-serif;
+  padding: 1rem;
+}
+h2 {
+  color: #bbbbbb;
+  font-size: 100px;
+  z-index: 10;
+  position: absolute;
+  left: 1%;
+  top: -7%;
+}
+
+h1{
+  color: #353535;
+  font-size: 20px;
+  z-index: 9;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  padding-bottom: 0px;
+
+}
+
+
+button {
+  background-color: #272727;
+  border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  
+}
+
+iframe {
+  width: 100%;
+  height: 700px;
+}
+
+.column {
+  float: left;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 0%;
+  padding-left: 10px;
+  
+}
+
+.right {
+  width: 100%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
