@@ -1,11 +1,10 @@
 
-import React, {useCallback} from 'react';
+import React from 'react';
 import './App.css';
 import Home from './home';
 import Inside from  './inside'
 import Model001page from './model001';
-import {Route, Routes, useNavigate} from 'react-router-dom'
-import NavBar from './NavBar';
+import {Route, Routes} from 'react-router-dom'
 
 function App() {
 

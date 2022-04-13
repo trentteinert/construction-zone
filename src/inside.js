@@ -1,6 +1,6 @@
 import React, {useCallback} from "react";
 import './home.css'
-import {Route, Routes, useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom'
 
 function Inside(){
 
@@ -16,7 +16,7 @@ function Inside(){
       <button id='Button6' onClick={handleOnClick2}>
       Model View
       </button>
-      <p align="center"> <iframe src="https://my.atlistmaps.com/map/e4d28ab0-e933-45c4-a670-3fbbba42913b?share=true" 
+      <p align="center"> <iframe title='bigmap' src="https://my.atlistmaps.com/map/e4d28ab0-e933-45c4-a670-3fbbba42913b?share=true" 
         allow="geolocation" 
         frameborder="0" 
         scrolling="no" 
