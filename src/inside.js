@@ -12,6 +12,11 @@ function Inside(){
   const handleOnClick5 = useCallback(() => navigate('/model004', {replace: true}), [navigate]);
   return(
     <div>
+      <p align="center"> <iframe id='Bigmap' title='map2' src="https://my.atlistmaps.com/map/e4d28ab0-e933-45c4-a670-3fbbba42913b?share=true" 
+        allow="geolocation" 
+        frameborder="0"
+        scrolling="no" 
+        allowfullscreen></iframe></p>
       <button id='Button5' onClick={handleOnClick}>
       Back
       </button>
@@ -27,11 +32,6 @@ function Inside(){
       <button id='Button9' onClick={handleOnClick5}>
       Model View 004
       </button>
-      <p align="center"> <iframe id='Bigmap' title='map2' src="https://my.atlistmaps.com/map/e4d28ab0-e933-45c4-a670-3fbbba42913b?share=true" 
-        allow="geolocation" 
-        frameborder="0"
-        scrolling="no" 
-        allowfullscreen></iframe></p>
     </div>
   )
 }

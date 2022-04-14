@@ -3,6 +3,7 @@ import React from 'react';
 import './App.css';
 import Home from './home';
 import Inside from  './inside'
+import Upload from './upload';
 import Model001page from './model001';
 import Model002page from './model002';
 import Model003page from './model003';
@@ -19,6 +20,7 @@ function App() {
       <Routes><Route path='/model002' element={<Model002page />}/></Routes>
       <Routes><Route path='/model003' element={<Model003page />}/></Routes>
       <Routes><Route path='/model004' element={<Model004page />}/></Routes>
+      <Routes><Route path='/upload' element={<Upload />}/></Routes>
     </div>
   );
 }

@@ -3,6 +3,20 @@ body {
   font: 18px Arial, sans-serif;
   padding: 1rem;
 }
+
+h3{
+  color: #353535;
+  font-size: 50px;
+  transform: translate(-50%, 0);
+  z-index: 9;
+  position: relative;
+  left: 50%;
+  margin-bottom: 9px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 h2 {
   color: #bbbbbb;
   font-size: 100px;
@@ -17,10 +31,10 @@ h1{
   font-size: 20px;
   z-index: 9;
   position: relative;
+  margin-bottom: 9px;
+  text-align: left;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
-  padding-bottom: 0px;
-
 }
 
 button {
@@ -37,10 +51,35 @@ button {
   
 }
 
-iframe#Bigmap {
-  margin-top: -18px;
+button#Button10 {
+  background-color: #272727;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  position: absolute;
+  left: 30px;
+}
+
+button#Button11 {
+  background-color: #272727;
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  position: absolute;
+  left: 130px;
+}
+
+iframe#Smallmap {
+  margin-top: 30px;
+  position: relative;
   width: 100%;
-  height: 820px;
+  height: 700px;
 }
 
 .column {

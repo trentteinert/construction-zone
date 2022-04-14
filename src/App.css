@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 button#Button4 {
   position: absolute;
   top: 102%;
@@ -31,11 +32,4 @@ button#Button8 {
 button#Button9 {
   position: relative;
   margin-right: 10px;
-}
-
-button#Button10 {
-  position: absolute;
-  top: 13.5%;
-  z-index: 11;
-  left: 1.5%;
 }
