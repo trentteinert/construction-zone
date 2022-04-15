@@ -8,6 +8,7 @@ import Model001page from './model001';
 import Model002page from './model002';
 import Model003page from './model003';
 import Model004page from './model004';
+import Info from './info';
 import {Route, Routes} from 'react-router-dom'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Routes><Route path='/model003' element={<Model003page />}/></Routes>
       <Routes><Route path='/model004' element={<Model004page />}/></Routes>
       <Routes><Route path='/upload' element={<Upload />}/></Routes>
+      <Routes><Route path='/information' element={<Info />}/></Routes>
     </div>
   );
 }

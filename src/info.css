@@ -3,6 +3,30 @@ body {
   font: 18px Arial, sans-serif;
   padding: 1rem;
 }
+
+h4{
+  color: #353535;
+  font-size: 50px;
+  z-index: 9;
+  position:  relative;
+  transform: translate(0%, 0);
+  margin-top: 40px;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+h5{
+  color: #353535;
+  font-size: 20px;
+  z-index: 9;
+  position:  relative;
+  transform: translate(0%, -px);
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 h2 {
   color: #F0A85A;
   font-size: 100px;
@@ -59,18 +83,6 @@ button#Button11 {
   border-radius: 2px;
   position: absolute;
   left: 130px;
-}
-
-button#Button12 {
-  background-color: #272727;
-  border: none;
-  color: rgb(255, 255, 255);
-  padding: 5px 25px;
-  font-size: 15px;
-  cursor: pointer;
-  border-radius: 2px;
-  position: absolute;
-  left: 243px;
 }
 
 iframe#Smallmap {
