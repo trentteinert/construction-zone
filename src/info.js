@@ -2,8 +2,6 @@ import React, {useCallback} from "react";
 import './info.css'
 import {useNavigate} from 'react-router-dom'
 
-
-
 function Info(){
 
   const navigate = useNavigate();
@@ -16,8 +14,10 @@ function Info(){
       Home
       </button>
       <h4>Information</h4>
-      <h5>Synopsis
+      <h5>Synopsis:
       </h5>
+      <h6>‘Construction Zone’ is a web based archive of Construction sites throughout Manhattan. 3D Photo scanned, creating virtual copies placed into a three-dimensional space on the webpage, sorted visually based on geolocation.
+      </h6>
     </div>
   )
 }

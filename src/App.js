@@ -1,10 +1,10 @@
 
 import React from 'react';
 import './App.css';
-import Home from './home';
 import Inside from  './inside'
 import Upload from './upload';
 import Model001page from './model001';
+import Model1home from './model1home';
 import Model002page from './model002';
 import Model003page from './model003';
 import Model004page from './model004';
@@ -15,9 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <Routes><Route path="/" element={<Home />}/></Routes>
+
       <Routes><Route path="/inside" element={<Inside />}/></Routes>
       <Routes><Route path='/model001' element={<Model001page />}/></Routes>
+      <Routes><Route path='/' element={<Model1home />}/></Routes>
       <Routes><Route path='/model002' element={<Model002page />}/></Routes>
       <Routes><Route path='/model003' element={<Model003page />}/></Routes>
       <Routes><Route path='/model004' element={<Model004page />}/></Routes>

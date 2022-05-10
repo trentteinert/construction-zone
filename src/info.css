@@ -27,6 +27,18 @@ h5{
   font-weight: bold;
 }
 
+h6{
+  color: #353535;
+  font-size: 20px;
+  z-index: 9;
+  position:  relative;
+  margin-right: 30%;
+  margin-left: 10%;
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
 h2 {
   color: #F0A85A;
   font-size: 100px;
