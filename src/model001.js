@@ -12,7 +12,6 @@ export default function Model001page() {
 
   const navigate = useNavigate();
   const handleOnClick = useCallback(() => navigate('/inside', {replace: true}), [navigate]);
- 
   return (
     <Wrapper className="App">
       <Canvas clasName="canvas" camera={{ fov: 40, position: [2, 1, 0] }}>
@@ -22,11 +21,9 @@ export default function Model001page() {
         <Suspense fallback={null}>
           <Model001 position={[0, -.5, 0]} />
         </Suspense>
-      </Canvas>
+      </Canvas> 
         <div>
-        <button id='Button4' onClick={handleOnClick}>
-        back
-      </button>
+        <button onclick="self.close()">Close</button>
         </div>
     </Wrapper>
   );

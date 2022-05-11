@@ -44,12 +44,12 @@ export default function Model1home() {
       <h25>About me.</h25>
       <h26>Trenton Teinert is a photographer currently residing in the Lower <br></br>East Side of Manhattan, in which his current work falls somewhere<br></br>between portraiture and landscape, working almost as environmental <br></br>portraits of the street of NY. Relying on happenstance and will to<br></br>find ways of connecting with his unfamiliar location. Relying on<br></br>the people to draw him in by their movement and routine.<br></br> Distracting the mind and falling into sync with the environment.</h26>
       <div><a href="https://www.trentteinert.com"><button id='Button03'>Trentteinert.com</button></a></div>
-      <Canvas className='canvastwo' camera={{ fov: 40, position: [1, 0.3, -2.5] }}>
-        <OrbitControls target={[1.5, 0, -1.5]} />
+      <Canvas className='canvastwo' camera={{ fov: 40, position: [-6, 0.3, -1] }}>
+        <OrbitControls target={[-4, 0, -0.5]} />
         <ambientLight intensity={0.5} />
         <spotLight position={[3, 3, 1]} angle={0.3} />
         <Suspense fallback={null}>
-          <Model021 position={[1.5, 0, -1.5]} />
+          <Model021 position={[-4, 0, -0.5]} />
         </Suspense>
       </Canvas>
     </Wrapper>
