@@ -32,14 +32,37 @@ h3 {
   position: relative;
   transform: translate(8.5%, 0)
 }
-h7{
+canvas {
+  height: 250px;
+}
+.canvas1 {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: auto;
+  left: -365px;
+  margin-top: 130px;
+  margin-bottom: -50px;
+}
+.canvastwo {
+  position: relative;
+  z-index: 1;
+  height: 500px;
+  width: auto;
+  left: -50px;
+  padding-bottom: -100px;
+  padding-top: -200px;
+}
+h27{
   color: #353535;
   font-size: 20px;
   z-index: 9;
-  position: relative;
-  left: 75px;
-  top: -50px;
+  position: absolute;
+  left: 120px;
+  top: 35%;
   font-family: 'Courier New', Courier, monospace;
+  text-align: left;
+  text-indent: 2em;
   font-weight: bold;
 }
 
@@ -61,8 +84,34 @@ h5{
   position: relative;
   margin-top: auto;
   text-align: left;
-  top: -50px;
-  left: 150px;
+  top: -65px;
+  left: 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+h25{
+  color: #353535;
+  font-size: 20px;
+  z-index: 9;
+  position: absolute;
+  margin-top: auto;
+  text-align: left;
+  top: 75%;
+  left: 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+h26{
+  color: #353535;
+  font-size: 16px;
+  text-indent: 2em;
+  z-index: 9;
+  position: absolute;
+  margin-top: auto;
+  text-align: left;
+  top: 80%;
+  left: 120px;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
@@ -91,6 +140,7 @@ button#Button01 {
   cursor: pointer;
   border-radius: 2px;
   position: relative;
+  margin-top: 35px;
   margin-left: -450px;
 }
 
@@ -105,6 +155,20 @@ button#Button02 {
   border-radius: 2px;
   position: relative;
   margin-left: 10px;
+}
+
+button#Button03 {
+  background-color: #272727;
+  border: none;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  padding: 5px 25px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 2px;
+  position: absolute;
+  left: -180px;
+  top: 96%;
 }
 
 img {
