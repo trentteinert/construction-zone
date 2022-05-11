@@ -15,12 +15,12 @@ export default function Model004page() {
  
   return (
     <Wrapper className="App">
-      <Canvas clasName="canvas" camera={{ fov: 40, position: [5, 0, 0] }}>
+      <Canvas clasName="canvas" camera={{ fov: 40, position: [5, 1, 2] }}>
         <OrbitControls target={[0, 0, 0]} />
         <ambientLight intensity={1} />
         <spotLight position={[3, 5, 1]} angle={0.3} />
         <Suspense fallback={null}>
-          <Model004 position={[0, 0, 0]} />
+          <Model004 position={[0, -.8, 0]} />
         </Suspense>
       </Canvas>
         <div>

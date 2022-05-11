@@ -7,10 +7,10 @@ import { useGLTF } from '@react-three/drei'
 
 export default function Model({ ...props }) {
   const group = useRef()
-  const { nodes } = useGLTF('/model008.gltf')
+  const { nodes, materials } = useGLTF('/model008.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.mesh_0.geometry} material={nodes.mesh_0.material} />
+      <mesh geometry={nodes.Mesh_0002.geometry} material={materials['Material_0.002']} position={[0.07, 0.21, -0.1]} rotation={[0, 0, 0.06]} />
     </group>
   )
 }

@@ -10,13 +10,7 @@ export default function Model({ ...props }) {
   const { nodes, materials } = useGLTF('/model002.gltf')
   return (
     <group ref={group} {...props} dispose={null}>
-      <mesh geometry={nodes.Mesh_0.geometry} material={materials.Material_0} position={[-2.61, 0.48, -4.57]} rotation={[0, 0, -0.03]} />
-      <mesh geometry={nodes.Mesh_0001.geometry} material={materials['Material_0.001']} position={[-2.72, 0.3, 1.38]} rotation={[0.02, 0.08, 0]} />
-      <mesh geometry={nodes.Mesh_0002.geometry} material={materials['Material_0.002']} position={[-2.36, 0.3, 5.92]} rotation={[0.02, 0.04, 0]} />
-      <mesh geometry={nodes.Mesh_0003.geometry} material={materials['Material_0.003']} position={[3.03, 0.3, -1.8]} rotation={[0.02, -0.02, 0]} />
-      <mesh geometry={nodes.Mesh_0004.geometry} material={materials['Material_0.004']} position={[2.97, 0.3, -6.36]} rotation={[0.02, 0.01, 0]} />
-      <mesh geometry={nodes.Mesh_0005.geometry} material={materials['Material_0.005']} position={[3.1, 0.3, 4.88]} rotation={[0.02, 0.02, 0]} />
-      <mesh geometry={nodes.Plane001.geometry} material={materials['Material.001']} position={[0, 0.01, -0.01]} scale={[3.7, 1, 8.41]} />
+      <mesh geometry={nodes.Mesh_0001.geometry} material={materials['Material_0.001']} />
     </group>
   )
 }

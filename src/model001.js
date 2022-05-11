@@ -8,15 +8,6 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model001 from './components/Model001';
 
-function Stand() {
-  return (
-    <mesh position={[-0.1, -0.47, -.07]} rotation={[0, 0, 0]}>
-      <boxBufferGeometry attach="geometry" args={[.7, 0.02, 1.4]} />
-      <meshLambertMaterial attach="material" color="#002800" />
-    </mesh>
-  );
-}
-
 export default function Model001page() {
 
   const navigate = useNavigate();
@@ -28,9 +19,8 @@ export default function Model001page() {
         <OrbitControls target={[0, 0, 0]} />
         <ambientLight intensity={0.5} />
         <spotLight position={[3, 3, 1]} angle={0.3} />
-        <Stand />
         <Suspense fallback={null}>
-          <Model001 position={[0, 0, 0]} />
+          <Model001 position={[0, -.5, 0]} />
         </Suspense>
       </Canvas>
         <div>
