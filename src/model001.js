@@ -23,7 +23,9 @@ export default function Model001page() {
         </Suspense>
       </Canvas> 
         <div>
-        <button onclick="self.close()">Close</button>
+        <button id='Button4' onClick={handleOnClick}>
+        back
+      </button>
         </div>
     </Wrapper>
   );
